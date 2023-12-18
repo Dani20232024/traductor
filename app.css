@@ -1,0 +1,53 @@
+body {
+    background-color: #ddd;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+html {
+    box-sizing: border-box;
+
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+}
+
+.card {
+    border: 1px solid;
+}
+
+
+span {
+    color: white;
+}
+
+
+.price {
+    font-size: 23px;
+}
+
+.theme-dark {
+    background-color: #555;
+
+}
+
+
+.theme-dark .card  {
+    background-color: #333;
+}
+
+.theme-dark .card p {
+    color: white;
+}
+
+.theme-dark .card span {
+    color: #333;
+}
+
+.theme-light {
+    background-color: white;
+}
